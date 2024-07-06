@@ -229,7 +229,7 @@ export function CaptionsView({ id }: { id: string }) {
         </Menu.BackLink>
       </div>
       <FileDropHandler
-        className={`mx-5 transition duration-300 ${dragging ? "opacity-20" : ""}`}
+        className={`transition duration-300 ${dragging ? "opacity-20" : ""}`}
         onDraggingChange={(isDragging) => {
           setDragging(isDragging);
         }}
